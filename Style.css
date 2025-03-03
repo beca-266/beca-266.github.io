@@ -8,13 +8,13 @@
 /* Body Styling */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background-color: #ffcccb; /* Pink background */
     color: #333;
 }
 
 /* Header Styling */
 header {
-    background-color: #333;
+    background-color: #ff66b2; /* A pink shade for the header */
     color: white;
     padding: 20px 0;
 }
@@ -50,17 +50,35 @@ main {
 }
 
 h2, h3 {
-    color: #333;
+    color: #f1e8e8;
 }
 
-/* Layout using Flexbox */
-#key-terms, #table-of-contents {
+/* Section Styles */
+#intro, #key-terms, #table-of-contents {
     margin-top: 20px;
+    padding: 20px;
+    background-color: #ffe6f0; /* Light pink background for sections */
+    border-radius: 8px;
+}
+
+/* Add pancake image to the intro section */
+#intro {
+    background-image: URL('https://japantoday-asset.scdn3.secure.raxcdn.com/img/store/cb/7e/cb6cfa5bb4fca685ac019828092fba1f75ba/cp-9/_w1700.png'); /* Replace with a real pancake image URL */
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    text-shadow: -1px -1px 0 #bb4870, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    color: rgb(251, 251, 251);
+    padding: 100px 20px;
+}
+
+#intro h2 {
+    font-size: 2em;
 }
 
 /* Footer Styling */
 footer {
-    background-color: #333;
+    background-color: #ff66b2;
     color: white;
     text-align: center;
     padding: 10px 0;
