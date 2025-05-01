@@ -73,37 +73,37 @@
     <h1>🥞 Pancake-Themed Quiz 🥞</h1>
     <form id="quizForm">
       <div class="question">
-        <p>1. What is the primary purpose of cookies in web development?</p>
-        <label><input type="radio" name="q1" value="a"> Making websites tasty</label><br>
-        <label><input type="radio" name="q1" value="b"> Storing user preferences and session data</label><br>
-        <label><input type="radio" name="q1" value="c"> Improving food delivery</label>
+        <p>1. What ingredient helps pancakes rise and become fluffy?</p>
+        <label><input type="radio" name="q1" value="a">Sugar</label><br>
+        <label><input type="radio" name="q1" value="b">baking soda</label><br>
+        <label><input type="radio" name="q1" value="c">salt</label>
       </div>
 
       <div class="question">
-        <p>2. What does SEO stand for?</p>
-        <label><input type="radio" name="q2" value="a"> Search Everything Online</label><br>
-        <label><input type="radio" name="q2" value="b"> Search Engine Optimization</label><br>
-        <label><input type="radio" name="q2" value="c"> Super Easy Online</label>
+        <p>2. Which of these is a common topping for pancakes?</p>
+        <label><input type="radio" name="q2" value="a">Soy sauce</label><br>
+        <label><input type="radio" name="q2" value="b">Maple syrup</label><br>
+        <label><input type="radio" name="q2" value="c">Ketchup</label>
       </div>
 
       <div class="question">
-        <p>3. Which HTML element defines a table row?</p>
-        <label><input type="radio" name="q3" value="a"> &lt;row&gt;</label><br>
-        <label><input type="radio" name="q3" value="b"> &lt;tr&gt;</label><br>
-        <label><input type="radio" name="q3" value="c"> &lt;td&gt;</label>
+        <p>3. What is the best time to flip a pancake?</p>
+        <label><input type="radio" name="q3" value="a">When the edges are dry and bubbles form</label><br>
+        <label><input type="radio" name="q3" value="b">After 10 seconds</label><br>
+        <label><input type="radio" name="q3" value="c">When it sticks to the pan</label>
       </div>
 
       <div class="question">
-        <p>4. Fill in the blank: CSS stands for ______ Style Sheets.</p>
+        <p>4. Fill in the blank: Traditional American pancakes are usually cooked on a ______.</p>
         <input type="text" name="q4">
       </div>
 
       <div class="question">
-        <p>5. Select all features of progressive web apps:</p>
-        <label><input type="checkbox" name="q5" value="offline"> Works offline</label><br>
-        <label><input type="checkbox" name="q5" value="installable"> Can be installed</label><br>
-        <label><input type="checkbox" name="q5" value="responsive"> Responsive design</label><br>
-        <label><input type="checkbox" name="q5" value="desktop-only"> Only works on desktops</label>
+        <p>5. Which of the following can be added to pancake batter? (Select all that apply)</p>
+        <label><input type="checkbox" name="q5" value="offline"> Mashed bananas</label><br>
+        <label><input type="checkbox" name="q5" value="installable">Chocolate chips</label><br>
+        <label><input type="checkbox" name="q5" value="responsive">Chopped onions</label><br>
+        <label><input type="checkbox" name="q5" value="desktop-only">Blueberries</label>
       </div>
 
       <button type="submit">Submit Quiz</button>
@@ -116,9 +116,9 @@
     const answers = {
       q1: 'b',
       q2: 'b',
-      q3: 'b',
-      q4: 'cascading',
-      q5: ['offline', 'installable', 'responsive']
+      q3: 'a',
+      q4: 'griddle',
+      q5: ['bananas", "chocolate", "blueberries']
     };
 
     document.getElementById('quizForm').addEventListener('submit', function(event) {
